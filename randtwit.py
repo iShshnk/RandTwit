@@ -4,11 +4,11 @@ import openai
 import random
 
 class twitterbot():
-    api_key = "JJ61HMGdIyz6Vmw4irIoHEpW0"
-    api_secret = "Vwplf1OYcy2YwoOpPEs0dNpWbEPFuT13oVTT3Ij9MmEe4XUCVo"
-    access_key = "1586563005088530433-8ymjkSmAnguZ99C83Q0IplFWRpfFZr"
-    access_key_secret = "TQSff2CkRasGCs1IMhCHJHdK0ca5Yy8qeWIlieEzzhPgl"
-    openai_key = "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"
+    api_key = "T4L8qQti3pJkfsIEszzfi3bOY"
+    api_secret = "Ge3EJyWG6LDoQXATni3OchiKrTHrXjF3BF34Vm5QjHlPCLuZMH"
+    access_key = "1656209603129131008-TD5uClxdTO9uRulnT7Iq4luVEdfnLv"
+    access_key_secret = "Z5yZcvtAEirHCWwhlmESaI83QYX425y1MxId4CPR6hTUd"
+    openai_key = "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"
 
     auth = tweepy.OAuthHandler(api_key, api_secret)
     auth.set_access_token (access_key, access_key_secret)
